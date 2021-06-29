@@ -1,0 +1,55 @@
+/******Fonts*****/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+/*****Header*****/
+body{
+    background-color:#FFF5EE;
+    margin: auto;
+    font-family: 'Fraunces', serif;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 15%;
+    height: 15%;
+}
+
+h1{
+    font-size: 1.5rem;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+h2{
+    margin-top: 40px;
+    margin-left: 65px;
+}
+
+.slogan{
+    flex-direction: column;
+}
+
+.slogan p{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    font-size: 1rem;
+    height: 35px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 7px;
+}
