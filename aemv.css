@@ -1,11 +1,21 @@
 /******Fonts*****/
-@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,400;0,700;1,100&display=swap');
 
 /*****Header*****/
 body{
     background-color:#FFF5EE;
     margin: auto;
-    font-family: 'Fraunces', serif;
+    font-family: 'Georama', sans-serif;
+}
+
+.banniere-contact{
+    color: #FFF5EE;
+    background-color:#9932CC;
+    height: 35px;
+}
+
+.contact{
+
 }
 
 .name{
@@ -22,6 +32,7 @@ h1{
     font-size: 1.5rem;
     justify-content: center;
     margin-top: 60px;
+    color: #9932CC;
 }
 
 h2{
@@ -65,4 +76,20 @@ li{
 
  .actuality{
      display: flex;
+ }
+
+ .action{
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .avis{
+     display: flex;
+     margin-top: 20px;
+     align-items: center;
+ }
+
+ footer{
+     background-color: #9932CC;
+     color: #FFF5EE;
  }
