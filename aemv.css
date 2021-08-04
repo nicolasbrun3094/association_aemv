@@ -3,19 +3,33 @@
 
 /*****Header*****/
 body{
-    background-color:#FFF5EE;
+    background-color:#e4d4d0;
     margin: auto;
     font-family: 'Georama', sans-serif;
 }
 
 .banniere-contact{
-    color: #FFF5EE;
-    background-color:#9932CC;
+    color: #e4d4d0;
+    background-color:#b497b1;
     height: 35px;
 }
 
-.contact{
+a{
+    text-decoration: none;
+}
 
+.mail{
+    opacity: 1.0;
+    color: #FFF5EE;
+    margin-left: 17%;
+    margin-top: 7px;
+}
+
+.phone{
+    opacity: 1.0;
+    color: #FFF5EE;
+    margin-left: 37%;
+    margin-top: 7px;
 }
 
 .name{
@@ -32,7 +46,7 @@ h1{
     font-size: 1.5rem;
     justify-content: center;
     margin-top: 60px;
-    color: #9932CC;
+    color: #a60183;
 }
 
 h2{
@@ -83,13 +97,30 @@ li{
      text-align: center;
  }
 
+.icone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-size{
+    font-size: 7.5em;
+    color: #b497b1;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
  .avis{
      display: flex;
      margin-top: 20px;
      align-items: center;
  }
 
+ li:hover{
+     color: #a60183;
+ }
+
  footer{
-     background-color: #9932CC;
+     height: 100px;
+     background-color: #b497b1;
      color: #FFF5EE;
  }
