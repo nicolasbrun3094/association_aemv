@@ -6,6 +6,7 @@ body{
     background-color:#e4d4d0;
     margin: auto;
     font-family: 'Georama', sans-serif;
+    z-index: 0;
 }
 
 .banniere-contact{
@@ -14,6 +15,7 @@ body{
     height: 35px;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 a{
