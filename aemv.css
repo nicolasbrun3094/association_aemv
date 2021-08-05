@@ -40,6 +40,8 @@ a{
 }
 
 .logo{
+    margin-top: 23px;
+    position: relative;
     width: 15%;
     height: 15%;
 }
@@ -104,6 +106,10 @@ li{
      font-weight: bold;
      text-align: center;
      font-size: 2em;
+ }
+
+ .adopted{
+     text-align: center;
  }
 
  .opinion{
