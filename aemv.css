@@ -12,6 +12,8 @@ body{
     color: #e4d4d0;
     background-color:#b497b1;
     height: 35px;
+    width: 100%;
+    position: fixed;
 }
 
 a{
@@ -56,11 +58,14 @@ h2{
     position: absolute;
 }
 
-.slogan{
+.principal-title{
     flex-direction: column;
 }
 
-.slogan p{
+.principal-title p{
+    font-size: 1.10em;
+    font-weight: bold;
+    font-style: italic;
     text-align: center;
     margin-top: 25px;
 }
@@ -86,27 +91,61 @@ li{
     width: 100%;
     height: 600px;
     object-fit: cover;
+    opacity: 0.75;
 }
 
- .actuality{
-     display: flex;
- }
+.action{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
- .action{
+.title-section{
      font-weight: bold;
      text-align: center;
+     font-size: 2em;
+ }
+
+ .opinion{
+     width: 25%;
+     flex-direction: column;
+ }
+
+ .title-opinion{
+     font-weight: bold;
+     margin-top: 35px;
+ }
+
+ .text-opinion{
+     margin-bottom: 32px;
+ }
+
+ .avis{
+     width: 35%;
+     margin-bottom: 32px;
+ }
+
+ .facebook{
+     display: flex;
+     justify-content: space-between;
  }
 
 .icone{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 50px;
+    background-image: url(https://i.pinimg.com/564x/5a/93/eb/5a93ebc2f932ebe425458a73586eee85.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    opacity: 0.75;
 }
 
 .fa-size{
+    text-align: center;
     font-size: 7.5em;
     color: #b497b1;
-    margin-left: 25%;
-    margin-right: 25%;
 }
 
  .avis{
@@ -119,8 +158,101 @@ li{
      color: #a60183;
  }
 
- footer{
+ .opinion{
+     display: flex;
+ }
+
+ .back-pic{
+     background-image: url(https://i.pinimg.com/564x/c5/b1/5e/c5b15efa146ebeda7252576d46412a7f.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     width: 100%;
+     height: 600px;
+     opacity: 0.75;
+ }
+
+ .back-pic2{
+     background-image: url(https://i.pinimg.com/564x/5a/93/eb/5a93ebc2f932ebe425458a73586eee85.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     width: 100%;
+     height: 600px;
+     opacity: 0.75;
+ }
+
+ .back-pic3{
+     background-image: url(https://i.pinimg.com/564x/54/b0/d3/54b0d3b6b070bcb489f0b4f042b0208d.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     width: 100%;
+     height: 600px;
+     opacity: 0.75;
+ }
+
+ .back-pic4{
+     background-image: url(https://i.pinimg.com/564x/8d/bd/2e/8dbd2e141b24b664882ff828395a0735.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     width: 100%;
+     height: 600px;
+     opacity: 0.75;
+ }
+
+.articles{
+    display: flex;
+    justify-content: center;
+}
+
+ .pic1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 96%;
+    height: 108px;
+    box-sizing: border-box;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 113px;
+ }
+
+ .information{
+    background-color: #b497b1;
+    border-radius: 15px;
+    padding: 2.5px;
+    box-shadow: 0px 0px 15px black;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 30px;
+    width: 25%;
+ }
+
+ .articles figcaption{
+     color: #e4d4d0;
+     text-align: center;
+ }
+
+.fa-size2{
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.support{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+footer a{
+    color: #e4d4d0;
+}
+
+footer{
      height: 100px;
      background-color: #b497b1;
      color: #FFF5EE;
+     text-align: center;
  }
