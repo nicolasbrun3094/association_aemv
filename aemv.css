@@ -25,15 +25,30 @@ a{
 .mail{
     opacity: 1.0;
     color: #FFF5EE;
-    margin-left: 17%;
+    /*margin-left: 17%;*/
     margin-top: 7px;
+}
+
+.home-placement{
+    margin-left: 18%;
+    font-size: 1.25em;
+    margin-top: 7px;
+    color: #FFF5EE;;
+}
+
+.position-mail{
+    margin-left: 17%;
 }
 
 .phone{
     opacity: 1.0;
     color: #FFF5EE;
-    margin-left: 37%;
+    /*margin-left: 37%;*/
     margin-top: 7px;
+}
+
+.position-phone{
+    margin-left: 17%;
 }
 
 .name{
@@ -140,7 +155,7 @@ li:hover .sub-menu1{
 }
 
 .back-size{
-    height: 750px;
+    height: 620px;
 }
 
 .cover{
@@ -162,7 +177,21 @@ li:hover .sub-menu1{
      font-weight: bold;
      text-align: center;
      font-size: 2em;
+     margin-top: 200px;
  }
+
+ .title-section2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+
+.title-section3{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 70px;
+}
 
  .adopted{
      text-align: center;
@@ -183,8 +212,11 @@ li:hover .sub-menu1{
  }
 
  .avis{
-     width: 35%;
+     width: 40%;
      margin-bottom: 32px;
+     border-radius: 15px;
+     object-fit: cover;
+     box-shadow: 0px 0px 15px #e7e7e7;
  }
 
  .facebook{
@@ -235,7 +267,7 @@ li:hover .sub-menu1{
      background-size: cover;
      background-attachment: fixed;
      width: 100%;
-     height: 600px;
+     height: 753px;
      opacity: 0.75;
  }
 
@@ -244,7 +276,7 @@ li:hover .sub-menu1{
      background-size: cover;
      background-attachment: fixed;
      width: 100%;
-     height: 600px;
+     height: 753px;
      opacity: 0.75;
  }
 
@@ -253,7 +285,7 @@ li:hover .sub-menu1{
      background-size: cover;
      background-attachment: fixed;
      width: 100%;
-     height: 600px;
+     height: 753px;
      opacity: 0.75;
  }
 
@@ -262,13 +294,14 @@ li:hover .sub-menu1{
      background-size: cover;
      background-attachment: fixed;
      width: 100%;
-     height: 600px;
+     height: 753px;
      opacity: 0.75;
  }
 
 .articles{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
  .pic1{
@@ -302,7 +335,7 @@ li:hover .sub-menu1{
     background-color: #b497b1;
     border-radius: 15px;
     padding: 2.5px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 15px #e7e7e7;
     box-sizing: border-box;
     align-items: center;
     margin: 30px;
