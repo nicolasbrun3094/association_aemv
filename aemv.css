@@ -184,6 +184,7 @@ li:hover .sub-menu1{
     font-weight: bold;
     text-align: center;
     font-size: 2em;
+    margin-top: 175px;
 }
 
 .title-section3{
@@ -193,8 +194,23 @@ li:hover .sub-menu1{
     margin-top: 70px;
 }
 
+.position-adopted{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
  .adopted{
+     display: flex;
+     flex-direction: column;
      text-align: center;
+ }
+
+ .pic-adopted{
+    height: 250px;
+    width: 250px;
+    border-radius: 130px;
+    object-fit: cover;
  }
 
  .opinion{
