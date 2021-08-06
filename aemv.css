@@ -327,6 +327,12 @@ li:hover{
     margin-top: 40px;
 }
 
+.articles2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 .pic1{
     display: flex;
     flex-direction: column;
@@ -365,7 +371,7 @@ li:hover{
     width: 25%;
  }
 
-.articles figcaption{
+.articles2 figcaption{
      color: #e4d4d0;
      text-align: center;
  }
